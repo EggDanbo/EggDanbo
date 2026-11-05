@@ -1,6 +1,6 @@
 # Danbo
 
-一名前端工程师，做中后台系统。更在意的是「一个 110 个路由的系统怎样不失控」这类问题，
+一名前端工程师，做中后台系统。更在意的是「一个上百个路由的系统怎样不失控」这类问题，
 而不是某个页面怎么写得更好看。
 
 ## 正在做的项目
@@ -9,7 +9,7 @@
 
 一体化后台管理系统 · Vue 3 + TypeScript + Naive UI
 
-11 个业务域、110 个路由，覆盖人、事、财、物、档的完整链路。
+10 个业务域、96 个路由，覆盖人、事、物、档的完整链路。
 自带本地 mock 引擎，**不连接任何后端**，克隆下来 `pnpm dev` 就能跑通列表、详情、审批、导出。
 
 🔗 [在线体验](https://eggdanbo.github.io/atlas-admin/) · 账号 `demo` / `123456`
@@ -18,7 +18,7 @@
 
 | 决策 | 解决什么 | 记录 |
 | ---- | -------- | ---- |
-| 表格列不写死 | 110 个页面的列定义手写会失控，改为脚本从视图提取字段、由数据生成 | [ADR-0002](https://github.com/EggDanbo/atlas-admin/blob/main/docs/adr/0002-dataformat-driven-columns.md) |
+| 表格列不写死 | 近百个页面的列定义手写会失控，改为脚本从视图提取字段、由数据生成 | [ADR-0002](https://github.com/EggDanbo/atlas-admin/blob/main/docs/adr/0002-dataformat-driven-columns.md) |
 | mock 不是几张静态 JSON | 数据要经得起翻页、搜索、审批流，还要可复现，所以在 Alova 层自研适配器 | [ADR-0001](https://github.com/EggDanbo/atlas-admin/blob/main/docs/adr/0001-local-mock-engine.md) |
 | 视觉不散落魔法值 | 换主色只改一个值，明暗两套自动成立 | [ADR-0003](https://github.com/EggDanbo/atlas-admin/blob/main/docs/adr/0003-design-tokens.md) |
 
